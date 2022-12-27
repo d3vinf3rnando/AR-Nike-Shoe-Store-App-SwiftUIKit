@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D83A75CA2959CFDA00CAD45E /* SecShoe.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D83A75C92959CFDA00CAD45E /* SecShoe.rcproject */; };
+		D83A75CC2959D33600CAD45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83A75CB2959D33500CAD45E /* Main.storyboard */; };
 		D8642AFD2958963500B0D307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642AFC2958963500B0D307 /* AppDelegate.swift */; };
 		D8642AFF2958963500B0D307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642AFE2958963500B0D307 /* ViewController.swift */; };
 		D8642B012958963500B0D307 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D8642B002958963500B0D307 /* Experience.rcproject */; };
-		D8642B042958963500B0D307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8642B022958963500B0D307 /* Main.storyboard */; };
 		D8642B062958963700B0D307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8642B052958963700B0D307 /* Assets.xcassets */; };
 		D8642B092958963700B0D307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8642B072958963700B0D307 /* LaunchScreen.storyboard */; };
 		D8642B132958963700B0D307 /* Nike_Shoe_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642B122958963700B0D307 /* Nike_Shoe_ARTests.swift */; };
 		D8642B1D2958963800B0D307 /* Nike_Shoe_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642B1C2958963800B0D307 /* Nike_Shoe_ARUITests.swift */; };
 		D8642B1F2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642B1E2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift */; };
+		D8642B2C29589A3500B0D307 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8642B2B29589A3500B0D307 /* Media.xcassets */; };
+		D8D4EA5C295B22D6009FC236 /* GreenShoe.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D8D4EA5B295B22D6009FC236 /* GreenShoe.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D83A75C92959CFDA00CAD45E /* SecShoe.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = SecShoe.rcproject; sourceTree = "<group>"; };
+		D83A75CB2959D33500CAD45E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D8642AF92958963500B0D307 /* Nike-Shoe-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike-Shoe-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8642AFC2958963500B0D307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8642AFE2958963500B0D307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8642B002958963500B0D307 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		D8642B032958963500B0D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8642B052958963700B0D307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8642B082958963700B0D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8642B0E2958963700B0D307 /* Nike-Shoe-ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nike-Shoe-ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,8 @@
 		D8642B182958963800B0D307 /* Nike-Shoe-ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nike-Shoe-ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8642B1C2958963800B0D307 /* Nike_Shoe_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_Shoe_ARUITests.swift; sourceTree = "<group>"; };
 		D8642B1E2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_Shoe_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8642B2B29589A3500B0D307 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = "Nike-Shoe-AR/Media.xcassets"; sourceTree = SOURCE_ROOT; };
+		D8D4EA5B295B22D6009FC236 /* GreenShoe.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = GreenShoe.rcproject; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 				D8642AFC2958963500B0D307 /* AppDelegate.swift */,
 				D8642AFE2958963500B0D307 /* ViewController.swift */,
 				D8642B002958963500B0D307 /* Experience.rcproject */,
-				D8642B022958963500B0D307 /* Main.storyboard */,
+				D83A75CB2959D33500CAD45E /* Main.storyboard */,
 				D8642B052958963700B0D307 /* Assets.xcassets */,
+				D8D4EA5B295B22D6009FC236 /* GreenShoe.rcproject */,
+				D83A75C92959CFDA00CAD45E /* SecShoe.rcproject */,
+				D8642B2B29589A3500B0D307 /* Media.xcassets */,
 				D8642B072958963700B0D307 /* LaunchScreen.storyboard */,
 			);
 			path = "Nike-Shoe-AR";
@@ -231,7 +240,8 @@
 			files = (
 				D8642B092958963700B0D307 /* LaunchScreen.storyboard in Resources */,
 				D8642B062958963700B0D307 /* Assets.xcassets in Resources */,
-				D8642B042958963500B0D307 /* Main.storyboard in Resources */,
+				D8642B2C29589A3500B0D307 /* Media.xcassets in Resources */,
+				D83A75CC2959D33600CAD45E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D4EA5C295B22D6009FC236 /* GreenShoe.rcproject in Sources */,
 				D8642AFF2958963500B0D307 /* ViewController.swift in Sources */,
 				D8642AFD2958963500B0D307 /* AppDelegate.swift in Sources */,
+				D83A75CA2959CFDA00CAD45E /* SecShoe.rcproject in Sources */,
 				D8642B012958963500B0D307 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,14 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8642B022958963500B0D307 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8642B032958963500B0D307 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8642B072958963700B0D307 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,7 +441,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 438DD3WKDT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow this app to use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,7 +472,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 438DD3WKDT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow this app to use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

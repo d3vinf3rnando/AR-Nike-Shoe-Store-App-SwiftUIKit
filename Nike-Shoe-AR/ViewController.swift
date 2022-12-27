@@ -12,13 +12,18 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
+    var anchorShoe : GreenShoe._GreenShoe!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        anchorShoe =  try! GreenShoe.load_GreenShoe()
+        anchorShoe.generateCollisionShapes(recursive: true)
+        arView.scene.anchors.append(anchorShoe)
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
         
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+    }
+    
+    @IBAction func buynow(_ sender: Any) {
+        anchorShoe.notifications.newshoe.post()
     }
 }
