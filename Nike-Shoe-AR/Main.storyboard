@@ -56,25 +56,17 @@
         <!--View Controller-->
         <scene sceneID="44s-Se-Mkv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zoN-26-lpj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="3Ph-JU-hg9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dOm-26-j04">
+                    <view key="view" contentMode="scaleToFill" id="dOm-26-j04" customClass="UICollectionReusableView">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-kc-MMx">
-                                <rect key="frame" x="209" y="383" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pzG-lk-l7t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zoN-26-lpj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41" y="-759"/>
+            <point key="canvasLocation" x="40.465116279069768" y="-759.01287553648069"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VhB-yt-UaZ">
@@ -97,20 +89,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnI-dc-O6b">
-                                <rect key="frame" x="25" y="821" width="380" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="Sc4-KZ-rQa"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="View Store">
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="22"/>
-                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="i5V-0k-tdf" kind="presentation" modalPresentationStyle="fullScreen" id="4rk-MI-ltH"/>
-                                </connections>
-                            </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTU-H3-bWd">
                                 <rect key="frame" x="20" y="119" width="410" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -248,16 +226,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vwn-2z-MUr">
+                                <rect key="frame" x="0.0" y="608" width="430" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ke-Yc-rcO">
+                                        <rect key="frame" x="0.0" y="8" width="430" height="274"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="LRF-5m-ikb"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Kux-8b-uOM"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zKc-sw-8sb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zKc-sw-8sb" firstAttribute="bottom" secondItem="s2W-Jn-yay" secondAttribute="bottom" constant="787" id="2Cp-fZ-Xj8"/>
-                            <constraint firstItem="zKc-sw-8sb" firstAttribute="bottom" secondItem="WnI-dc-O6b" secondAttribute="bottom" constant="14" id="BjW-HK-rLS"/>
                             <constraint firstItem="s2W-Jn-yay" firstAttribute="top" secondItem="zKc-sw-8sb" secondAttribute="top" constant="20" id="K6z-nM-kwq"/>
-                            <constraint firstItem="WnI-dc-O6b" firstAttribute="leading" secondItem="zKc-sw-8sb" secondAttribute="leading" constant="25" id="Ohd-qK-iNd"/>
                             <constraint firstItem="s2W-Jn-yay" firstAttribute="leading" secondItem="Bss-no-Odi" secondAttribute="leadingMargin" id="ZJK-lC-SOZ"/>
-                            <constraint firstItem="WnI-dc-O6b" firstAttribute="centerX" secondItem="Bss-no-Odi" secondAttribute="centerX" id="nXi-RO-Pkm"/>
                             <constraint firstItem="zKc-sw-8sb" firstAttribute="trailing" secondItem="s2W-Jn-yay" secondAttribute="trailing" constant="185" id="oWV-jf-pq5"/>
                         </constraints>
                     </view>
@@ -331,8 +318,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AEK-Zb-NgJ"/>
-        <segue reference="oSS-Va-Fas"/>
+        <segue reference="T9J-qi-Q9K"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.forward.circle.fill" catalog="system" width="128" height="123"/>
