@@ -10,6 +10,8 @@ import RealityKit
 
 class ViewController: UIViewController {
     
+    //code update
+    
     @IBOutlet var arView: ARView!
     
     var anchorShoe : GreenShoe._GreenShoe!
