@@ -274,7 +274,7 @@
                                 <rect key="frame" x="148" y="828" width="141" height="60"/>
                                 <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="cart.fill" catalog="system" title="Buy $120">
+                                <buttonConfiguration key="configuration" style="plain" image="cart.fill" catalog="system" title="Buy $120" cornerStyle="capsule">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>

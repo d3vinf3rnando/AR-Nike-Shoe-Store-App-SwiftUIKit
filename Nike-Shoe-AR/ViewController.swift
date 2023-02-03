@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
-    var anchorShoe : GreenShoe._GreenShoe!
+    var anchorShoe : GreenShoe._GreenShoe! //add project.rc file
     
     override func viewDidLoad() {
         super.viewDidLoad()
