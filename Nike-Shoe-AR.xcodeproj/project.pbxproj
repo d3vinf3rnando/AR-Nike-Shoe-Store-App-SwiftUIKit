@@ -17,6 +17,7 @@
 		D8642B1D2958963800B0D307 /* Nike_Shoe_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642B1C2958963800B0D307 /* Nike_Shoe_ARUITests.swift */; };
 		D8642B1F2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8642B1E2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift */; };
 		D879CB20298CC47E006DFD35 /* GreenShoe.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D879CB1F298CC47E006DFD35 /* GreenShoe.rcproject */; };
+		D8896AB929928E31007BF15A /* ArStore.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D8896AB829928E31007BF15A /* ArStore.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D8642B1C2958963800B0D307 /* Nike_Shoe_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_Shoe_ARUITests.swift; sourceTree = "<group>"; };
 		D8642B1E2958963800B0D307 /* Nike_Shoe_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_Shoe_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D879CB1F298CC47E006DFD35 /* GreenShoe.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = GreenShoe.rcproject; sourceTree = "<group>"; };
+		D8896AB829928E31007BF15A /* ArStore.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ArStore.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D83A75CB2959D33500CAD45E /* Main.storyboard */,
 				D8642B052958963700B0D307 /* Assets.xcassets */,
 				D879CB1F298CC47E006DFD35 /* GreenShoe.rcproject */,
+				D8896AB829928E31007BF15A /* ArStore.rcproject */,
 				D8642B072958963700B0D307 /* LaunchScreen.storyboard */,
 			);
 			path = "Nike-Shoe-AR";
@@ -262,6 +265,7 @@
 				D879CB20298CC47E006DFD35 /* GreenShoe.rcproject in Sources */,
 				D8642AFF2958963500B0D307 /* ViewController.swift in Sources */,
 				D8642AFD2958963500B0D307 /* AppDelegate.swift in Sources */,
+				D8896AB929928E31007BF15A /* ArStore.rcproject in Sources */,
 				D8642B012958963500B0D307 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

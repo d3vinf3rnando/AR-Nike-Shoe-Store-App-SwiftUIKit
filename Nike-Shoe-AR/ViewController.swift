@@ -14,11 +14,11 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
-    var anchorShoe : GreenShoe._GreenShoe! //add project.rc file
+    var anchorShoe : ArStore._ArStore! //add project.rc file
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        anchorShoe =  try! GreenShoe.load_GreenShoe()
+        anchorShoe =  try! ArStore.load_ArStore()
         anchorShoe.generateCollisionShapes(recursive: true)
         arView.scene.anchors.append(anchorShoe)
         
@@ -26,6 +26,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buynow(_ sender: Any) {
-        anchorShoe.notifications.newshoe.post()
+        
     }
 }

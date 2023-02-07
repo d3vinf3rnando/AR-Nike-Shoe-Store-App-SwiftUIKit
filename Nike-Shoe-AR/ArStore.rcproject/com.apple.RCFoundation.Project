@@ -1,0 +1,1522 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -18.569799423217773,
+                0
+              ],
+              "identifier" : "44224CD1-4C31-4925-B456-6312F4E5757A",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "2C168D98-5515-47D7-A64F-2ADFC3250F88" : null,
+                  "3C2B95D2-CA6E-4CF2-9D6D-CEBF4E2DD8B5" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:7a3d3be30e087a90558e13636e1f4d23\/Brothers_shoe.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C3737576-15DB-4D42-892D-2810841D1217"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "02D9ACDB-CFE1-4028-B485-33D1935EBD64"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.079175330698490143,
+                        1.1927454579563346e-08,
+                        0.028817459940910339,
+                        0,
+                        -0.0098562072962522507,
+                        0.079176090657711029,
+                        -0.027079742401838303,
+                        0,
+                        -0.027079576626420021,
+                        -0.028817398473620415,
+                        -0.074400514364242554,
+                        0,
+                        -0.89953881502151489,
+                        0.96098726987838745,
+                        -0.098103098571300507,
+                        1
+                      ]
+                    }
+                  },
+                  "7F1BB31B-116D-4F62-B17F-D7C2B8430810" : null,
+                  "8E510C22-2FE4-48B5-87C7-66A75CAB55C1" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:e50df70a7558a81c4d4893d279b4d737\/Nike_Air_Zoom_Pegasus_36.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "4B49DFA3-4E7B-4BFD-AA16-D64C0A92888C"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "52719992-669C-43B2-925B-A5EC495EDFF7"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.076366767287254333,
+                        0,
+                        -0.13227111101150513,
+                        0,
+                        0,
+                        0.15273365378379822,
+                        0,
+                        0,
+                        0.13227111101150513,
+                        0,
+                        -0.076366767287254333,
+                        0,
+                        -0.86531400680541992,
+                        0.52519667148590088,
+                        -0.13768017292022705,
+                        1
+                      ]
+                    }
+                  },
+                  "13F3B33A-8615-45B7-9614-28CF6A13BDD8" : null,
+                  "59B8363C-0C4A-4BFD-A5AE-1927EB215873" : null,
+                  "059BB13D-DCBD-4DD1-8673-1C8EEAA52413" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:60b4fd58d61fa9368985a97b566ce636\/Jordan_shoes.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "07B23517-2C31-4898-B8A0-476D35C24B2B"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B8F1638C-E502-48A6-9C7E-BDD7DD835B40"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.0055208164267241955,
+                        1.6800343877221111e-23,
+                        0.03928263857960701,
+                        0,
+                        4.4781758418608003e-16,
+                        0.039668746292591095,
+                        6.293664571102795e-17,
+                        0,
+                        -0.03928263857960701,
+                        4.5221786740750692e-16,
+                        -0.0055208164267241955,
+                        0,
+                        0.39517736434936523,
+                        0.48348957300186157,
+                        -0.33205899596214294,
+                        1
+                      ]
+                    }
+                  },
+                  "82D80FAC-5B45-4542-9FD3-401593075F52" : null,
+                  "87EB024E-E4BF-4207-83BE-DDF2A41CD02F" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:7f893b82c96f3b7a68321f9d0dec30c1\/sneaker_airforce.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "770AE2E9-EB75-4EF4-8D6E-5B9F147C6508"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "11630BC1-F59D-468A-BD89-9F5B60E50997"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.98480725288391113,
+                        1.4870174425141158e-07,
+                        0.17364807426929474,
+                        0,
+                        1.7721593792430212e-07,
+                        1,
+                        1.4870182951653987e-07,
+                        0,
+                        -0.17364807426929474,
+                        1.7721583844831912e-07,
+                        -0.98480725288391113,
+                        0,
+                        -0.30561375617980957,
+                        -0.0001163184642791748,
+                        -0.31709104776382446,
+                        1
+                      ]
+                    }
+                  },
+                  "93A2DEFC-DDBA-40F6-B1B6-75B8AF8E80FD" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:e06b28eff5a46b2a77746e19e842b161\/Used_New_Balance_574_Classic______FREE.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "65AE5E17-6415-4203-8D6C-492928930837"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4ABFA8E0-E006-4221-96B8-1A9BABA4F147"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        8.4333997563135199e-09,
+                        -6.7022636033887148e-16,
+                        0.047162983566522598,
+                        0,
+                        1.4242844237344343e-08,
+                        0.04716307669878006,
+                        -2.0106829985439955e-15,
+                        0,
+                        -0.047162983566522598,
+                        1.4242816703813332e-08,
+                        8.4333997563135199e-09,
+                        0,
+                        -0.31678611040115356,
+                        0.52523231506347656,
+                        -0.34452107548713684,
+                        1
+                      ]
+                    }
+                  },
+                  "537C8425-075E-47FB-AC92-35F2F404A6F5" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:6d7f84546ea1bca7c89f7235d76fd3be\/Photocatch_Shoe.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E296E944-1ED9-44A0-881D-5483422C09F9"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "142740DB-89EC-460C-AE52-0BD9638ABD71"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.27547353506088257,
+                        0,
+                        -0.048573419451713562,
+                        0,
+                        0.0042334506288170815,
+                        0.27865868806838989,
+                        0.024009091779589653,
+                        0,
+                        0.048388577997684479,
+                        -0.024379471316933632,
+                        0.27442526817321777,
+                        0,
+                        -0.29883843660354614,
+                        0.97514206171035767,
+                        -0.37601903080940247,
+                        1
+                      ]
+                    }
+                  },
+                  "1867BF27-0BA0-497C-8A23-1F431230E8D5" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:d4ae025af81f8bc070d082fa236319b2\/sneaker_pegasustrail.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5F776BED-80C2-459A-B818-672EE3433A66"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "69E85A7C-406B-462B-A9D2-DB5B8FBA02EF"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.98480796813964844,
+                        1.487018579382493e-07,
+                        -0.17364819347858429,
+                        0,
+                        1.2477565292101644e-07,
+                        1,
+                        1.4870184372739459e-07,
+                        0,
+                        0.17364819347858429,
+                        1.2477566713187116e-07,
+                        -0.98480796813964844,
+                        0,
+                        0.36850237846374512,
+                        -0.00033058226108551025,
+                        -0.34924507141113281,
+                        1
+                      ]
+                    }
+                  },
+                  "23812A02-C444-48B8-81C4-1873F15BD453" : null,
+                  "263898C9-B12B-443E-866C-F9B57A2E29C7" : null,
+                  "A25869C2-BE8A-4A21-87F5-0FCF67A0F9BA" : null,
+                  "A73973F4-811C-4B3F-8836-AC26421898C7" : null,
+                  "B224715A-5D8E-42E9-9FFE-2AE7E332F994" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:7ba826cfc032bc7e8698f92afa9e2d83\/Bearpaw_HQ_FREE.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "8102FBD7-8B96-45F7-A4EE-21C274623126"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "A668F1F6-E780-4BA3-A4EE-DD651FBC6B56"
+                          }
+                        ],
+                        [
+                          "isAccessibilityEnabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.5477290153503418,
+                        -0.94869476556777954,
+                        -0.29352709650993347,
+                        0,
+                        0.82811528444290161,
+                        0.62135273218154907,
+                        -0.46296051144599915,
+                        0,
+                        0.5480923056602478,
+                        0.0092607419937849045,
+                        0.99282282590866089,
+                        0,
+                        -0.86053848266601562,
+                        0.0751495361328125,
+                        -0.14753180742263794,
+                        1
+                      ]
+                    }
+                  },
+                  "BB496864-E711-4F22-976A-2B0621BF79AA" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:250c4bb4c17edcf3c5902646500ef20e\/Shoe_3D_Scan.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1533F12B-D188-480B-910E-709907C935F2"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "2457F7C6-E6D1-4A95-AA5F-0F46AD1A1B97"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.056790802627801895,
+                        8.5751743483797327e-09,
+                        -0.032788190990686417,
+                        0,
+                        4.95087837393271e-09,
+                        0.065576359629631042,
+                        8.5751716838444736e-09,
+                        0,
+                        0.032788190990686417,
+                        4.9508779298435002e-09,
+                        -0.056790802627801895,
+                        0,
+                        0.97142338752746582,
+                        0.28119516372680664,
+                        -0.1347581148147583,
+                        1
+                      ]
+                    }
+                  },
+                  "C7EAEAC6-9A01-409F-814D-3864E2368E31" : null,
+                  "C326D1C2-987E-4A96-A782-149FFC38458F" : null,
+                  "Cube" : null,
+                  "D60A5098-0246-46C2-ADCC-B0B257FB389D" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:306096730664650701e13fb21ae23f75\/Scanned_Adidas_Sports_Shoe.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "9F9A3575-A878-4396-9079-6CDAB79948B2"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "66274ED0-35D1-46A9-85F7-5C1F00D4E7C6"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.2584228515625,
+                        0,
+                        0.30797627568244934,
+                        0,
+                        0,
+                        0.40203452110290527,
+                        0,
+                        0,
+                        -0.30797627568244934,
+                        0,
+                        0.2584228515625,
+                        0,
+                        0.90899789333343506,
+                        0.041010305285453796,
+                        -0.12686154246330261,
+                        1
+                      ]
+                    }
+                  },
+                  "DBB062D6-B243-45ED-B23D-34EA26C2B0E2" : null,
+                  "DD6A585C-8027-4B0A-9A20-EE1FDCD2D645" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:c41e243c57c35434d985f76ac96698f0\/Nike_Shoe.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "69883023-ECC3-4CAD-9866-9F15A873831E"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "2438E509-D6CF-447E-A3D1-7B8556444158"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.043261397629976273,
+                        6.5322751652274746e-09,
+                        -0.0076281377114355564,
+                        0,
+                        5.4812248073687897e-09,
+                        0.043928731232881546,
+                        6.5322822706548322e-09,
+                        0,
+                        0.0076281377114355564,
+                        5.4812443472940231e-09,
+                        -0.043261397629976273,
+                        0,
+                        0.3134416937828064,
+                        0.9240725040435791,
+                        -0.44067937135696411,
+                        1
+                      ]
+                    }
+                  },
+                  "E16CD42A-2059-4F38-A797-6F04F6A17271" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:ca2ba4fdc36ab71c182b44dc330e87b8\/Nike_Lunartempo_2_Shoe_by_DigitWorlds.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B8E9A474-C0B9-4C3B-8F19-8F21D2E75136"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "889EC9BC-9539-40E1-B3AA-538AFA850545"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.058564964681863785,
+                        4.9935493328485351e-15,
+                        0.10143749415874481,
+                        0,
+                        3.0633291459025713e-08,
+                        0.11712995171546936,
+                        1.7686135223016208e-08,
+                        0,
+                        -0.10143749415874481,
+                        3.5372270446032417e-08,
+                        -0.058564964681863785,
+                        0,
+                        0.93158191442489624,
+                        0.42099347710609436,
+                        -0.12849918007850647,
+                        1
+                      ]
+                    }
+                  },
+                  "EB583A8E-D539-4C64-B030-304A5FC5DBE6" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:0a1114d56c1a0bea1bf815e723ab4e78\/Logo_Nike.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "D5C37127-895B-4A9B-A581-17F917C85057"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7049615F-F890-448E-82F6-56EB1D75B6AC"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.12488458305597305,
+                        0,
+                        0.010925985872745514,
+                        0,
+                        0,
+                        0.12536162137985229,
+                        0,
+                        0,
+                        -0.010925985872745514,
+                        0,
+                        0.12488458305597305,
+                        0,
+                        0.094923138618469238,
+                        1.4321256875991821,
+                        -0.37612226605415344,
+                        1
+                      ]
+                    }
+                  },
+                  "F3206C55-1C3C-4168-B21C-BE2DCE68A853" : null,
+                  "FF0B3E60-7FFE-4809-993D-F20B25748910" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "ArStore",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.97529035806655884,
+                  1.7273062269396178e-07,
+                  0.22092688083648682,
+                  0,
+                  0.026110081002116203,
+                  0.99299150705337524,
+                  -0.11526502668857574,
+                  0,
+                  -0.21937866508960724,
+                  0.11818493902683258,
+                  0.96845513582229614,
+                  0,
+                  -0.38182717561721802,
+                  0.59186083078384399,
+                  3.0722165107727051,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
