@@ -66,7 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-DA-uyx">
-                                        <rect key="frame" x="0.0" y="0.0" width="430" height="486"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="430" height="451"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </arView>
                                 </subviews>
@@ -357,7 +357,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="AEK-Zb-NgJ"/>
-        <segue reference="oSS-Va-Fas"/>
+        <segue reference="T9J-qi-Q9K"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
