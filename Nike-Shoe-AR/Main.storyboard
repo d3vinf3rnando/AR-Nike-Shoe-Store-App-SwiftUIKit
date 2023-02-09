@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HdW-WB-eeh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HdW-WB-eeh">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -58,15 +58,29 @@
             <objects>
                 <viewController id="3Ph-JU-hg9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOm-26-j04" customClass="UICollectionReusableView">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="863"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lq6-6e-ndK">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="459"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-DA-uyx">
+                                        <rect key="frame" x="0.0" y="0.0" width="430" height="486"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </arView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pzG-lk-l7t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VWI-7a-KhY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zoN-26-lpj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40.465116279069768" y="-759.01287553648069"/>
+            <point key="canvasLocation" x="-29.302325581395348" y="821.45922746781116"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VhB-yt-UaZ">
@@ -240,6 +254,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uNu-wv-fpt">
+                                <rect key="frame" x="25" y="599" width="184" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s11" translatesAutoresizingMaskIntoConstraints="NO" id="6JN-I2-QyI">
+                                        <rect key="frame" x="-36" y="-9" width="247" height="224"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-Eq-eGo">
+                                        <rect key="frame" x="16" y="154" width="92" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Buy Now">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="3Ph-JU-hg9" kind="show" id="ezk-VA-uQh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S0J-g7-V7m">
+                                <rect key="frame" x="217" y="599" width="184" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="s22" translatesAutoresizingMaskIntoConstraints="NO" id="Png-1G-Pnc">
+                                        <rect key="frame" x="-36" y="-9" width="247" height="224"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sl3-7f-3WZ">
+                                        <rect key="frame" x="16" y="154" width="92" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Buy Now">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zKc-sw-8sb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -270,24 +325,6 @@
                             <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5s0-RL-rUZ">
                                 <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                             </arView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pjm-g4-wgg">
-                                <rect key="frame" x="148" y="828" width="141" height="60"/>
-                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="cart.fill" catalog="system" title="Buy $120" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="buynow:" destination="i5V-0k-tdf" eventType="touchUpInside" id="AkL-dI-Q41"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQ5-mi-xbi">
-                                <rect key="frame" x="326" y="432" width="50" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrow.forward.circle.fill" catalog="system"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCt-ri-7gI">
                                 <rect key="frame" x="38" y="60" width="40" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -303,12 +340,8 @@
                         <viewLayoutGuide key="safeArea" id="Fk7-IE-4uV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Fk7-IE-4uV" firstAttribute="trailing" secondItem="Pjm-g4-wgg" secondAttribute="trailing" constant="141" id="HVe-oo-v4a"/>
                             <constraint firstItem="5s0-RL-rUZ" firstAttribute="top" secondItem="2sa-zy-tNn" secondAttribute="top" id="M46-o7-D8t"/>
-                            <constraint firstItem="Pjm-g4-wgg" firstAttribute="leading" secondItem="Fk7-IE-4uV" secondAttribute="leading" constant="148" id="NnS-1v-e4P"/>
-                            <constraint firstItem="Fk7-IE-4uV" firstAttribute="bottom" secondItem="Pjm-g4-wgg" secondAttribute="bottom" constant="10" id="Q0Z-qs-NOz"/>
                             <constraint firstAttribute="bottom" secondItem="5s0-RL-rUZ" secondAttribute="bottom" id="Vfe-fU-dvM"/>
-                            <constraint firstItem="Pjm-g4-wgg" firstAttribute="top" secondItem="Fk7-IE-4uV" secondAttribute="top" constant="769" id="YHX-xU-F7p"/>
                             <constraint firstItem="5s0-RL-rUZ" firstAttribute="trailing" secondItem="Fk7-IE-4uV" secondAttribute="trailing" id="bI3-kk-5TL"/>
                             <constraint firstItem="5s0-RL-rUZ" firstAttribute="leading" secondItem="Fk7-IE-4uV" secondAttribute="leading" id="fn6-iT-4yY"/>
                         </constraints>
@@ -327,18 +360,15 @@
         <segue reference="oSS-Va-Fas"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="arrow.forward.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
         <image name="group1" width="501" height="450"/>
         <image name="group2" width="516" height="481"/>
         <image name="group3" width="395" height="252"/>
+        <image name="s11" width="200" height="230"/>
+        <image name="s22" width="201" height="231"/>
         <image name="sicon" width="1024" height="1024"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
