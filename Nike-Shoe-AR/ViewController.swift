@@ -26,6 +26,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buynow(_ sender: Any) {
-        
+        //add notify button linked with rc.project
     }
 }
