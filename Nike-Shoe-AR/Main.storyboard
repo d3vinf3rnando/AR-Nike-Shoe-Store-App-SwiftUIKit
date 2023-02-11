@@ -270,7 +270,7 @@
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="3Ph-JU-hg9" kind="show" id="ezk-VA-uQh"/>
+                                            <segue destination="3Ph-JU-hg9" kind="push" id="ezk-VA-uQh"/>
                                         </connections>
                                     </button>
                                 </subviews>
