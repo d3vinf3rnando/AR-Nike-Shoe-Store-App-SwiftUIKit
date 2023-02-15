@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HdW-WB-eeh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Ph-JU-hg9">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -56,21 +56,25 @@
         <!--View Controller-->
         <scene sceneID="44s-Se-Mkv">
             <objects>
-                <viewController id="3Ph-JU-hg9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="1" id="3Ph-JU-hg9" customClass="ViewController" customModule="Nike_Shoe_AR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOm-26-j04" customClass="UICollectionReusableView">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="863"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lq6-6e-ndK">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lq6-6e-ndK">
                                 <rect key="frame" x="0.0" y="0.0" width="430" height="459"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-DA-uyx">
+                                    <arView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-DA-uyx">
                                         <rect key="frame" x="0.0" y="0.0" width="430" height="451"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </arView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Mft-DA-uyx" firstAttribute="centerX" secondItem="Lq6-6e-ndK" secondAttribute="centerX" id="Qkx-Ot-Jfr"/>
+                                    <constraint firstItem="Mft-DA-uyx" firstAttribute="bottom" secondItem="Lq6-6e-ndK" secondAttribute="bottomMargin" id="tnz-Xa-Hqi"/>
+                                    <constraint firstItem="Mft-DA-uyx" firstAttribute="leading" secondItem="Lq6-6e-ndK" secondAttribute="leading" id="ucU-wQ-UCF"/>
+                                    <constraint firstItem="Mft-DA-uyx" firstAttribute="top" secondItem="Lq6-6e-ndK" secondAttribute="top" id="xq5-7O-DEa"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pzG-lk-l7t"/>
