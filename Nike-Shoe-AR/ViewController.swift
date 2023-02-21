@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         
         
     }
+
+    //add a new view controller
     
     @IBAction func buynow(_ sender: Any) {
         //add notify button linked with rc.project
